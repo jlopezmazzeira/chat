@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Proyecto de chat con socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlopezmazzeira/chat.git"
+  },
+  "author": "Jesús López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlopezmazzeira/chat/issues"
+  },
+  "homepage": "https://github.com/jlopezmazzeira/chat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
